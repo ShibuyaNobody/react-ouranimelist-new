@@ -1,38 +1,168 @@
-.App {
+@import url('webfontkit-20220315-115455/stylesheet.css');
+.body {
+  background-color: #EEF1F8;
+}
+.bar {
+  background-image: url('components/images/logobanner.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: 100%;
+  /* box-shadow: 0px 0px 1px black; */
+  padding: 50px;
+}
+.logoImage {
+  height: 200px;
+  width: auto;
+  display: block;
+  margin: 0px auto;
+}
+.personalSuggestion {
+  background-image: url('./components/images/oddtaxi.jpg');
+  padding: 160px;
+  background-size: cover;
+  background-position: center;
+}
+.footer {
+  background-color: #fbcfcd;
   text-align: center;
+  padding: 5px 0px;
+  margin-top: 15px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.dogesmirk {
+  text-decoration: none;
+  color: #000000;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.suggestion-box {
+  background-color: #fbcfcd;
+  padding: 20px;
+  border-radius: 15px;
+  margin-top: 20px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Search Bar */
+/* .searchBox {
+  background-color: #fbcfcd;
+  padding-top: 20px;
+  
+} */
+.searchBar {
+  background-color: #fbcfcd;
+  padding-top: 20px;
+}
+.searchBar input[type = "text"] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: auto;
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+  border-bottom: 2px solid #d69191;
+  padding: 3px 10px;
+  outline: none;
+  color: rgb(90, 81, 81);
+  transition: 0.25s;
+  height: 25px;
+  width: 220px;
+}
+.searchBar input[type = "text"]:focus {
+  width: 240px;
+  border-color: #654321;
+}
+.searchBar input[type = "submit"] {
+  border: 0;
+  background: none;
   display: flex;
-  flex-direction: column;
+  margin: 10px auto;
+  border: 2px solid #d69191;
+  padding: 1px 11px;
+  width: 50px;
+  outline: none;
+  color: rgb(90, 81, 81);
+  font-weight: bold;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+  transform: translate(145px, -40px); 
+}
+.searchBar input[type = "submit"]:hover {
+  background: #fdab9f;
+  border-color: #cc6666;
+}
+/* NAVBAR */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'sansationregular';
+}
+
+.home,
+.services,
+.products,
+.contact-us,
+.sign-up,
+.marketing,
+.consulting {
+  display: flex;
+  height: 90vh;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: 3rem;
 }
 
-.App-link {
-  color: #61dafb;
+.home {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.services {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.products {
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.contact-us {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.sign-up {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.marketing {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.consulting {
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
 }
