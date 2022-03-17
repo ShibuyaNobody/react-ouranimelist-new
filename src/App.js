@@ -1,17 +1,4 @@
 import React, { useState } from 'react';
-import Button from 'react-bootstrap/Button';
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
-import Container from 'react-bootstrap/Container';
-import InputGroup from 'react-bootstrap/InputGroup';
-import FormControl from 'react-bootstrap/FormControl';
-import Dropdown from 'react-bootstrap/Dropdown';
-import DropdownButton from 'react-bootstrap/DropdownButton';
-import Carousel from 'react-bootstrap/Carousel';
-import Stack from 'react-bootstrap/Stack';
-import Image from 'react-bootstrap/Image';
-import Card from 'react-bootstrap/Card';
-import CardGroup from 'react-bootstrap/CardGroup';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navbar';
