@@ -111,13 +111,13 @@
   font-size: 3rem;
 }
 
-.home {
+/* .home {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
-}
+} */
 
 .services {
   background-position: center;
@@ -127,7 +127,7 @@
   font-size: 100px;
 }
 
-.products {
+.about-us {
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
@@ -165,4 +165,13 @@
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
+}
+
+.centerText {
+  text-align: center;
+}
+.teamImg {
+  border-radius: 50%;
+  display: block;
+  margin: 0px auto;
 }

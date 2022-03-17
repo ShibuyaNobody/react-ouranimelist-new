@@ -17,6 +17,10 @@
     text-decoration: none;
     font-size: 2rem;
     padding-bottom: 15pt;
+    transition: all 0.2s ease-out;
+  }
+  .navbar-logo:hover {
+    color: #EEF1F8;
   }
   
   .fa-firstdraft {
