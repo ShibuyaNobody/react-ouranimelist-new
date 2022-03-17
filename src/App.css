@@ -166,7 +166,10 @@
   color: #fff;
   font-size: 100px;
 }
-
+.center {
+  display: block;
+  margin: 0px auto;
+}
 .centerText {
   text-align: center;
 }
@@ -174,4 +177,12 @@
   border-radius: 50%;
   display: block;
   margin: 0px auto;
+  background-color: #fbcfcd;
+}
+.teamLink {
+  text-decoration: none;
+  color: #000000;
+}
+.teamLink:hover {
+  color: #cc6666;
 }

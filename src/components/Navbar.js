@@ -139,7 +139,12 @@ function Navbar() {
               {/* Ranking <i className='fas fa-caret-down' /> */}
               <Dropdown renderMenuOnMount={true}>
                 <Dropdown.Toggle id="dropdown-autoclose-true">
-                Profile
+                  <Link
+                    to='/profile'
+                    className='nav-links'
+                    onClick={closeMobileMenu}>
+                    Profile
+                  </Link>
                 </Dropdown.Toggle>
 
                 <Dropdown.Menu renderMenuOnMount={true}>

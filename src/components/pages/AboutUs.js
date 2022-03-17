@@ -15,7 +15,7 @@ export default function AboutUs() {
         <Row>
           <Col>
             {/* <h2>Doge is our mascot!</h2> */}
-            <img src={require('../images/dogesmirk.jpg')} />
+            <img className='center' src={require('../images/ouranimelist_icon_pog.png')} height='250px'/>
           </Col>
           <Col xs={8}>
             <h1>About our App</h1>
@@ -31,19 +31,19 @@ export default function AboutUs() {
         <Row>
           <Col>
             <img className='teamImg' src={require('../images/dogesmirk.jpg')} height='200px' />
-            <h4 className='centerText'>Leon</h4>
+            <h4 className='centerText'><a className='teamLink' href='https://github.com/yelu2021' target="_blank">Leon</a></h4>
           </Col>
           <Col>
-            <img className='teamImg' src={require('../images/pika_monica.jpg')} height='200px' />
-            <h4 className='centerText'>Monica</h4>
+            <img className='teamImg' src={require('../images/hawyeepika.png')} height='200px' />
+            <h4 className='centerText'><a className='teamLink' href='https://github.com/LuongMonica' target="_blank">Monica</a></h4>
           </Col>
           <Col>
             <img className='teamImg' src={require('../images/kimuwu.jpg')} height='200px' />
-            <h4 className='centerText'>Kim</h4>
+            <h4 className='centerText'><a className='teamLink' href='https://github.com/kimrenie' target="_blank">Kim</a></h4>
           </Col>
           <Col>
             <img className='teamImg' src={require('../images/sleepy_rai.jpg')} height='200px' />
-            <h4 className='centerText'>Rai</h4>
+            <h4 className='centerText'><a className='teamLink' href='https://github.com/ShibuyaNobody' target="_blank">Rai</a></h4>
           </Col>
         </Row>
       </Container>

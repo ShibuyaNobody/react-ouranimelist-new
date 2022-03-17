@@ -22,7 +22,7 @@ import AboutUs from './components/pages/AboutUs';
 import ContactUs from './components/pages/ContactUs';
 import SignUp from './components/pages/SignUp';
 import Home from './components/pages/Home';
-import Services from './components/pages/Services';
+import Profile from './components/pages/Profile';
 import Settings from './components/pages/Settings';
 import MostPopular from './components/pages/MostPopular';
 import Ranking from './components/pages/Ranking';
@@ -54,10 +54,9 @@ function App() {
             <Route page='/ranking' component={Ranking} />
             <Route page='/most-popular' component={MostPopular} />
             <Route path='/marketing' component={Marketing} />
-            <Route path='/services' component={Services} />
+            <Route path='/profile' component={Profile} />
             <Route path='/contact-us' component={ContactUs} />
             <Route path='/sign-up' component={SignUp} />
-            
             <Route page='/settings' component={Settings} />
           </Switch>
         </Router>
